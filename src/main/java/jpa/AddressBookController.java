@@ -32,6 +32,7 @@ public class AddressBookController {
                            Model model){
         AddressBook book = repo.findAll().iterator().next();
         BuddyInfo buddy = new BuddyInfo(name,phoneNumber);
+        buddy.setAddress("123 street");
         book.addBuddy(buddy);
         model.addAttribute("book",book);
         repo.save(book);
