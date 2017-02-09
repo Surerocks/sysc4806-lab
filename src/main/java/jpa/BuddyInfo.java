@@ -29,6 +29,7 @@ public class BuddyInfo {
     public BuddyInfo(String name, String phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
+        this.address = "";
     }
 
     public String getName() {
