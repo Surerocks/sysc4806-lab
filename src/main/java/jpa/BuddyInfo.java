@@ -12,11 +12,21 @@ public class BuddyInfo {
     private String name;
     @Id private String phoneNumber;
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    private String address;
+
     public BuddyInfo(){
 
     }
 
-    public BuddyInfo(String name, String phoneNumber){
+    public BuddyInfo(String name, String phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
     }
