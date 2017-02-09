@@ -47,7 +47,7 @@ public class BuddyFrame extends JFrame {
 
 
 
-    public static void main(String[] args){
+    /*public static void main(String[] args){
         BuddyFrame frame = new BuddyFrame();
-    }
+    } */
 }

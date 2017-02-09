@@ -51,7 +51,7 @@ public class AddressBook extends Observable{
 
 
 
-    public static void main(String[] args){
+   /* public static void main(String[] args){
         AddressBook a = new AddressBook();
         BuddyInfo b1 = new BuddyInfo("Craig", "555");
         BuddyInfo b2 = new BuddyInfo("Bob","666");
@@ -66,7 +66,7 @@ public class AddressBook extends Observable{
                     + b.getPhoneNumber());
         }
 
-    }
+    } */
 
 
 }
